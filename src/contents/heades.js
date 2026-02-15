@@ -4,5 +4,5 @@ export const data ={
     "title":"Computer Science",
     "caption":"I build accessible, pixel-perfect digital experiences for the web.",
     btnText:"View Resume",
-    link:fileName
+    link: fileName
 }
