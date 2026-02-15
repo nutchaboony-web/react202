@@ -1,6 +1,6 @@
 import { faGit, faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import picExp1 from '../../assets/Expic1.png'
+import picExp from '../../assets/Expic1.png'
 import picExp2 from '../../assets/Expic2.png'
 import { useState } from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +24,7 @@ const Experience = () => {
             >
                 <div>
                     <FormattedDate isHighlight={isMouseEnter['exp1']}>2024-202</FormattedDate>
-                    <Picture picture={picExp1} title="Fullstack" />
+                    <Picture picture={picExp} title="Fullstack" />
                 </div>
                 <div className="grid gap-y-4">
                     <TitleLink isHighlight={isMouseEnter['exp1']} title="Fullstack" link="https://github.com/nutchaboony-web/react202" />
