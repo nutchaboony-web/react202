@@ -32,7 +32,7 @@ function App() {
           </div>
           <div className='flex flex-col gap-4 font-semibold'>
             <div>
-              <FontAwesomeIcon className='mr-2'icon={faArrowRight}/>
+              <FontAwesomeIcon className='mr-2 text-primaryTitle'icon={faArrowRight}/>
               About
               </div>
             <div>Experience</div>
